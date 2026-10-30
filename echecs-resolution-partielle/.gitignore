@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+results/
+
+# Tables Syzygy : volumineuses, à télécharger séparément (voir docs/RESSOURCES.md)
+data/syzygy/*
+!data/syzygy/.gitkeep
+*.rtbw
+*.rtbz
